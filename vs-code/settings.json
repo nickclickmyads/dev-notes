@@ -1,0 +1,55 @@
+{
+    "breadcrumbs.enabled": true,
+
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "editor.autoIndent": false,
+    "editor.fontFamily": "'Consolas', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.rulers": [ 120 ],
+    "editor.roundedSelection": false,
+    "editor.tabSize": 4,
+
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    
+    "files.eol": "\n",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/vendor/**": true
+    },
+    
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+
+    "html.autoClosingTags": false,
+
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.splitCwd": "initial",
+
+    "window.zoomLevel": 0,
+
+    "[go]": {
+        "editor.insertSpaces": false
+    },
+
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    }
+}
