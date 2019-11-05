@@ -30,6 +30,12 @@
     yum check-update
     sudo yum install code
 
+## DBeaver
+
+Скачать RPM-пакет последней версии по [ссылке](https://dbeaver.io/download/) и установить
+
+    sudo rpm -i <имя-rpm-пакета>
+
 ## PHP
 
     sudo amazon-linux-extras install php7.2
