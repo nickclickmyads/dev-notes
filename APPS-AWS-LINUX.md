@@ -12,7 +12,7 @@
 
 Для определения адресов доменных имен внутри контейнеров необходимо добавить адреса Google DNS
 
-    echo '{"dns":["8.8.8.8","8.8.4.4"]}' | sudo tee -a /etc/docker/daemon.json
+    echo '{"dns":["8.8.8.8","8.8.4.4"]}' | sudo tee /etc/docker/daemon.json
     sudo systemctl restart docker
 
 ## Docker Compose ([источник](https://docs.docker.com/compose/install/))
